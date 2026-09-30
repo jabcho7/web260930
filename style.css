@@ -25,8 +25,44 @@ h1 {
 }
 .content {
   display: inline-block;
-  width : 30%; /* 부모 요소 너비의 30%*/
   height: 100%;
   border: solid 1px black;
   
+}
+
+#m1 {
+  border: 3px;
+}
+article[id="m2"] /* article 중 m2라는 이름을 가진것만*/{
+  border: 3px;
+}
+
+div::before{
+  content:"[영화 소개] ";
+  font-weight: 900;
+  color: darkgreen;
+}
+div::after{
+  content:"[더보기]";
+  font-staye:"italic";
+  color: blue;
+}
+
+a {
+  text-decoration:none;
+  color: darkblue;
+}
+
+a:visited{
+  color: darkred;
+}
+a:hover {
+  background-color:darkgreen;
+  color:white;
+}
+
+a:active {
+  background-color:darkred;
+  color:white;
+}
 }
