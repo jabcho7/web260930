@@ -1,4 +1,4 @@
-# web260930
+https://jabcho7.github.io/web260930/
 
 - HTML
 	- 내용 / 스토리
@@ -17,7 +17,13 @@
 
 <h4>link rel="stylesheet" href="./style.css" 태그를 html head 태그 안에 넣어 css 적용하기</h4>
 
-적용 주소: https://jabcho7.github.io/web260930/
+<h3> 가상 요소 선택자 </h3>
+-  (태그)::before - 콘텐츠 앞 공간 선택<br>
+-  (태그)::after - 콘텐츠 뒷 공간 선택
 
+a(링크 태그) 관련 css
+a:visited <-- 방문한적 있는 링크
+a:hover <-- 마우스가 링크 위에 올라가있을 때
+a:active <-- 마우스가 클릭하고있을 때
 
 
