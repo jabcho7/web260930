@@ -1,6 +1,8 @@
 *{
   /*font-size: 10px;*/
 }
+@import url('https://fonts.googleapis.com/css2?family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&family=Do+Hyeon&display=swap');
+
 html {
   /*font-size: 10px;*/
 }
@@ -16,6 +18,7 @@ header, main, footer {
 }
 h1 {
   color: green; 
+  font-family:"Do Hyeon",serif;
   background-color: lightpink;
   border: solid 2px red; 
   text-align: center; 
@@ -47,6 +50,12 @@ div::after{
   font-staye:"italic";
   color: blue;
 }
+article div{
+  font-family:"Do Hyeon",serif;
+  background-color:lightgray;
+  padding: 15px 5px 10px 5px;
+  margin-bottom:20px;
+}
 
 a {
   text-decoration:none;
@@ -65,4 +74,12 @@ a:active {
   background-color:darkred;
   color:white;
 }
+
+article:nth-child(3) {
+  background-color: lightgreen;
+}
+
+h3{
+  font-family: "Do Hyeon" , sans-serif;
+  font-size:1,5px
 }
