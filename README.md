@@ -22,8 +22,8 @@ https://jabcho7.github.io/web260930/
 -  (태그)::after - 콘텐츠 뒷 공간 선택
 
 a(링크 태그) 관련 css
-a:visited <-- 방문한적 있는 링크
-a:hover <-- 마우스가 링크 위에 올라가있을 때
-a:active <-- 마우스가 클릭하고있을 때
+a:visited <-- 방문한적 있는 링크 <br>
+a:hover <-- 마우스가 링크 위에 올라가있을 때<br>
+a:active <-- 마우스가 클릭하고있을 때<br>
 
 
