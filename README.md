@@ -20,8 +20,10 @@ https://jabcho7.github.io/web260930/
 <h3> 가상 요소 선택자 </h3>
 -  (태그)::before - 콘텐츠 앞 공간 선택<br>
 -  (태그)::after - 콘텐츠 뒷 공간 선택
-
+<br>
+<br>
 a(링크 태그) 관련 css
+
 a:visited <-- 방문한적 있는 링크 <br>
 a:hover <-- 마우스가 링크 위에 올라가있을 때<br>
 a:active <-- 마우스가 클릭하고있을 때<br>
